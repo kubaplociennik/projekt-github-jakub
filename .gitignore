@@ -10,4 +10,8 @@ build/
 .DS_Store
 screenshots/
 report/output/
-
+tmp/
+output/pdf/*.pdf
+report/assets/*.png
+report/assets/*.jpg
+report/assets/*.jpeg

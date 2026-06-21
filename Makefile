@@ -2,7 +2,7 @@ PYTHON ?= python3
 VENV ?= .venv
 VENV_PYTHON = $(VENV)/bin/python
 VENV_PIP = $(VENV)/bin/pip
-DOCKERHUB_USERNAME ?= kubaplociennik
+DOCKERHUB_USERNAME ?= keiok
 DOCKERHUB_IMAGE ?= projekt-github-jakub
 IMAGE_NAME = $(DOCKERHUB_USERNAME)/$(DOCKERHUB_IMAGE)
 
@@ -30,4 +30,3 @@ docker_push:
 
 clean:
 	rm -rf $(VENV) __pycache__ tests/__pycache__
-
