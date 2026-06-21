@@ -17,9 +17,11 @@ class AppTestCase(unittest.TestCase):
         response = client.get("/")
 
         self.assertEqual(response.status_code, 200)
-        self.assertEqual(response.get_json()["message"], "Hello World from Jakub!")
+        self.assertEqual(
+            response.get_json()["message"],
+            "Hello World from Jakub!",
+        )
 
 
 if __name__ == "__main__":
     unittest.main()
-
