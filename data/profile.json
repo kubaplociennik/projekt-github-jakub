@@ -1,5 +1,20 @@
 {
-  "student": "Jakub",
-  "course": "NDA_ABU_INFinz_NW_HB(m)_L25/26"
-  "tools": "git, flask, docker, circleci"
+  "student": {
+    "first_name": "Jakub",
+    "last_name": "Plociennik",
+    "album_number": "102182",
+    "github": "https://github.com/kubaplociennik"
+  },
+  "course": {
+    "code": "NDA_ABU_INFinz_NW_HB(m)_L25/26",
+    "report_deadline": "2026-07-08"
+  },
+  "tools": [
+    "git",
+    "flask",
+    "make",
+    "flake8",
+    "docker",
+    "circleci"
+  ]
 }

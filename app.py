@@ -16,14 +16,15 @@ def load_profile():
 @app.get("/")
 def index():
     profile = load_profile()
+    student = profile["student"]
     return jsonify(
         {
-            "message": f"Hello World from {profile['student']}!",
+            "message": f"Hello World from {student['first_name']}!",
             "course": profile["course"],
+            "tools": profile["tools"],
         }
     )
 
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
-
