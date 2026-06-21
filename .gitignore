@@ -8,10 +8,8 @@ dist/
 build/
 *.egg-info/
 .DS_Store
+.playwright-cli/
+output/
+report/
 screenshots/
-report/output/
 tmp/
-output/pdf/*.pdf
-report/assets/*.png
-report/assets/*.jpg
-report/assets/*.jpeg
